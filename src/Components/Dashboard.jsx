@@ -162,7 +162,7 @@ const Dashboard = () => {
               {matchingData.map((match, index) => (
                 <div key={index} className="d-flex align-items-center mb-2">
                   <img src={match.image} alt={match.name} className="rounded-circle me-3" width="50" height="50" />
-                  <div className="flex-grow-1">
+                  <div className="flex-grow-1" style={{marginRight:"15px"}}>
                     <h6 className="mb-0">{match.name}</h6>
                     <small className="text-muted">{match.specialty}</small>
                   </div>
